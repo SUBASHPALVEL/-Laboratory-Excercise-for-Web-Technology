@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Program</title>
+</head>
+<body>
+  <h2>Quiz Program</h2>
+  <form method="POST" action="SubmitQuizServlet">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <p>Question 1: What is the capital of France?</p>
+    <input type="radio" name="q1" value="Paris" required> Paris<br>
+    <input type="radio" name="q1" value="London"> London<br>
+    <input type="radio" name="q1" value="Berlin"> Berlin<br>
+
+    <p>Question 2: Who painted the Mona Lisa?</p>
+    <input type="radio" name="q2" value="Leonardo da Vinci" required> Leonardo da Vinci<br>
+    <input type="radio" name="q2" value="Pablo Picasso"> Pablo Picasso<br>
+    <input type="radio" name="q2" value="Vincent van Gogh"> Vincent van Gogh<br>
+
+    <p>Question 3: What is the largest planet in our solar system?</p>
+    <input type="radio" name="q3" value="Jupiter" required> Jupiter<br>
+    <input type="radio" name="q3" value="Saturn"> Saturn<br>
+    <input type="radio" name="q3" value="Neptune"> Neptune<br>
+
+    <input type="submit" value="Submit Quiz">
+  </form>
+</body>
+</html>
